@@ -1,0 +1,15 @@
+<%- include('header') %>
+<main>
+    <h1>Register</h1>
+    <form action="/register" method="POST">
+        <input name="username" placeholder="username" type="text" required>
+        <input name="password0" placeholder="password" type="password" required>
+        <input name="password1" placeholder="repeat password" type="password" required>
+        <button type="submit">create account</button>
+    </form>
+    <% if (error) { %>
+        <p style="color: red"><%= error %></p>
+    <% } %>
+</main>
+</body>
+</html>

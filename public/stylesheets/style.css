@@ -1,0 +1,37 @@
+body {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 0 1rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  padding: .5rem 1rem;
+}
+
+.invisible-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none;
+  list-style-position: none;
+}
+
+.nav-ul {
+  display: flex;
+}
+
+.nav-ul>*+* {
+  margin-left: 1rem;
+}
+
+a {
+  color: #00B7FF;
+}
